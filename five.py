@@ -4,7 +4,7 @@ import matplotlib.dates as mdates
 import re
 
 
-path = "C:\\Users\\trist\\PycharmProjects\\UST_Analysis\\UST_Auction_Results\\Securities_combined.csv" #  URL of csv here
+path = "" #  URL of csv here
 df = pd.read_csv(path, low_memory=False)
 
 
